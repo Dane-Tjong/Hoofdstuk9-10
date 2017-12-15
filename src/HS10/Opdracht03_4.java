@@ -17,7 +17,6 @@ public class Opdracht03_4 extends Applet{
     public void init() {
         jaar = new TextField("",20);
         tekstvak = new TextField("", 20);
-        label = new Label("link is jaartal rechts is maandnummer ");
         tekstvak.addActionListener(new TekstvakListener());
         jaar.addActionListener(new TekstvakListener());
         add(label);
